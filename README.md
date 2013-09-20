@@ -2,8 +2,6 @@
 
 {DESCRIPTION}
 
-[![build status](https://secure.travis-ci.org/serby/{NAME}.png)](http://travis-ci.org/serby/{NAME})
-
 ## Installation
 
       npm install {NAME}

@@ -1,16 +1,18 @@
-{ "author": "Paul Serby <paul@serby.net>"
+{ "author": "{AUTHOR}"
 , "name": "{NAME}"
 , "description": "{DESCRIPTION}"
 , "version": "0.0.1"
 , "tags": []
 , "repository":
   { "type": "git"
-  , "url": "git@github.com:serby/{NAME}"
+  , "url": "git@github.com:{GITHUBOWNER}/{NAME}"
+  }
+, "publishConfig": {
+    "registry":"http://npm.clockte.ch"
   }
 , "main": ""
 , "scripts":
-  { "test": "make test"
-  , "prepublish": "make qa && npm prune"
+  { "test": "./node_modules/.bin/pliers test"
   }
 , "engines":
   { "node": ">=0.8"
@@ -21,5 +23,6 @@
 , "devDependencies":
   { "mocha": "*"
   , "should": "*"
+  , "pliers": "*"
   }
 }
