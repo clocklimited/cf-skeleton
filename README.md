@@ -9,7 +9,7 @@
 ## Usage
 
 ## Credits
-[Paul Serby](https://github.com/serby/) follow me on twitter [@serby](http://twitter.com/serby)
+Built by developers at [Clock](http://clock.co.uk).
 
 ## Licence
 Licensed under the [New BSD License](http://opensource.org/licenses/bsd-license.php)
