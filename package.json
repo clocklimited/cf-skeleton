@@ -12,7 +12,10 @@
   }
 , "main": ""
 , "scripts":
-  { "test": "./node_modules/.bin/pliers test"
+  { "lint": "./node_modules/.bin/jshint ."
+  , "pretest": "npm run-script lint; exit 0"
+  , "test": "./node_modules/.bin/mocha -R spec"
+  , "prepublish": "npm run-script lint && npm test"
   }
 , "engines":
   { "node": ">=0.8"
@@ -23,6 +26,6 @@
 , "devDependencies":
   { "mocha": "*"
   , "should": "*"
-  , "pliers": "*"
+  , "jshint": "*"
   }
 }
