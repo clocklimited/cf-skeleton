@@ -12,7 +12,7 @@
   }
 , "main": ""
 , "scripts":
-  { "lint": "./node_modules/.bin/jshint ."
+  { "lint": "./node_modules/.bin/jshint . --reporter=./node_modules/jshint-full-path/index.js"
   , "pretest": "npm run-script lint; exit 0"
   , "test": "./node_modules/.bin/mocha -R spec"
   , "prepublish": "npm run-script lint && npm test"
@@ -27,5 +27,6 @@
   { "mocha": "*"
   , "should": "*"
   , "jshint": "*"
+  , "jshint-full-path": "*"
   }
 }
