@@ -24,6 +24,15 @@
 , "noempty": false
 , "nonew": true
 , "quotmark": "single"
+, "nonew": true
+, "predef":
+  [ "describe"
+  , "it"
+  , "before"
+  , "beforeEach"
+  , "after"
+  , "afterEach"
+  ]
 , "smarttabs": true
 , "strict": false
 , "trailing": false
