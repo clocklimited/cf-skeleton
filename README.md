@@ -4,7 +4,7 @@
 
 ## Installation
 
-      npm install --save {NAME}
+    npm install --save {NAME}
 
 ## Usage
 
