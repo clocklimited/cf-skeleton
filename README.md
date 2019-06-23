@@ -1,5 +1,7 @@
 # {NAME}
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/clocklimited/cf-skeleton.svg)](https://greenkeeper.io/)
+
 {DESCRIPTION}
 
 ## Installation
